@@ -1,5 +1,6 @@
 [project]
-name = "tcs-garr"
+# name = "tcs-garr"
+name = "tcs-sissa"
 version = "0.25.1"
 description = "Command-line tool to manage and interact with Harica platform"
 readme = "README.md"
@@ -15,7 +16,8 @@ Repository = "https://github.com/ConsortiumGARR/tcs-garr"
 Changelog = "https://github.com/ConsortiumGARR/tcs-garr/blob/main/CHANGELOG.md"
 
 [project.scripts]
-tcs-garr = "tcs_garr.main:main"
+# tcs-garr = "tcs_garr.main:main"
+tcs-sissa = "tcs_sissa.main:main"
 
 [tool.poetry]
 include = ["chain/**"]
@@ -32,6 +34,8 @@ requests = "^2.32.3"
 pyotp = "^2.9.0"
 jwt = "^1.3.1"
 packaging = "^25.0"
+# Dependency added
+tcs-garr = ">=0.25.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.11.11"

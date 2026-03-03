@@ -1,4 +1,4 @@
-# TCS-GARR Client
+# TCS-SISSA (TCS-GARR Client with SISSA's add-ons)
 
 ![Version](https://img.shields.io/badge/Version-0.25.1-brightgreen.svg)
 
@@ -21,6 +21,9 @@ It supports operations such as:
 * Managing ACME accounts and domain validations
 * Generating domain validation tokens
 * Exporting reports and more
+
+**TCS-SISSA Client** is an enhanced version of **TCS-GARR Client** that supports the
+loading of extra commands and extra configuration options.
 
 ## ⚠️ Disclaimer
 
